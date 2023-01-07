@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+  }
+  .calc {
+    width: 320px;
+    margin: auto;
+  }
+  
+  #answer {
+    background-color: red;
+    padding: 10px;
+    font-size: 35px;
+    width: 295px;
+    height: 46px;
+    text-align: right;
+    border: 3px solid #eee;
+    color: wheat;
+  }
+  
+  #answer::placeholder {
+    color: #eee;
+  }
+  .button {
+    background-color: dimgray;
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 30px;
+    border: 1px solid #eee;
+    float: left;
+    cursor: pointer;
+  }
+  .deletebutton {
+    width: 160px;
+    height: 50px;
+    background-color: orange;
+    font-size: 20px;
+  }
+  
+  .buttonequile {
+    width: 160px;
+    height: 50px;
+    background-color: orange;
+    font-size: 20px;
+  }
